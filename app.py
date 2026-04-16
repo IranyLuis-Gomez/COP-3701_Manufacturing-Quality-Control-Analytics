@@ -3,9 +3,9 @@ import oracledb
 oracledb.init_oracle_client(lib_dir=r"C:\oracle\instantclient_23_0")
 
 conn = oracledb.connect(
-    user="PERACCINY007_SCHEMA_PW850",
-    password="DMSE!1CDYT9N64F1rTRG3K75EGRM1I",
-    dsn="db.freesql.com:1521/23ai_34ui2"
+    user="username",
+    password="pw",   # old pw reset 
+    dsn="dsn
 )
 
 cur = conn.cursor()
